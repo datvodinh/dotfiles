@@ -15,5 +15,5 @@ git clone https://github.com/datvodinh/dotfiles.git ~/.dotfiles
 3. Install using `install.sh`
 
 ```bash
-bash ~/.dotfiles/install.sh
+source ~/.dotfiles/install.sh
 ```
