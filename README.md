@@ -12,8 +12,8 @@ xcode-select --install
 git clone https://github.com/datvodinh/dotfiles.git ~/.dotfiles
 ```
 
-3. Install using `install.sh`
+3. Install using `boostrap.sh`
 
 ```bash
-source ~/.dotfiles/install.sh
+source ~/.dotfiles/boostrap.sh
 ```
