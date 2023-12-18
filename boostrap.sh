@@ -9,9 +9,11 @@ ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Then pass in the Brewfile location...
 brew bundle --file ~/.dotfiles/Brewfile
 
-# ...or move to the directory first.
-cd ~/.dotfiles && brew bundle
+# Install tool for ZSH
+brew install zsh-autosuggestions
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

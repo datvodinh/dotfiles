@@ -1,5 +1,4 @@
 tap "homebrew/bundle"
-tap "jandedobbeleer/oh-my-posh"
 # Distributed revision control system
 brew "git"
 # Git extension for versioning large files
